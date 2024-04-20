@@ -22,4 +22,17 @@ public class Calculadora {
         System.out.println("Num1: " + a);
         System.out.println("Num2: " + b);
     }
+
+    public int somaArray(int[] numeros) {
+        int soma = 0;
+        for(int num: numeros) {
+            soma += num;
+        }
+        return soma;
+    }
+
+    public void somaVarArgs(int... numeros) { //varArgs transforma os argumentos em array
+
+    }
+
 }

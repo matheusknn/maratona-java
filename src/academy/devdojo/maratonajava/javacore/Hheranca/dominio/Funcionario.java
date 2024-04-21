@@ -6,6 +6,7 @@ public class Funcionario extends Pessoa{
     @Override
     public void imprime() {
         super.imprime();
+        System.out.println("salário: " + this.salario);
     }
 
     public double getSalario() {

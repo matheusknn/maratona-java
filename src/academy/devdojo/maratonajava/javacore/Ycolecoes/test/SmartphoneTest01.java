@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Ycolecoes.test;
 import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Smartphone;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SmartphoneTest01 {
@@ -16,6 +17,7 @@ public class SmartphoneTest01 {
         smartphones.add(smartphone1);
         smartphones.add(smartphone2);
         smartphones.add(smartphone3);
+
 
 //        smartphones.clear();//deleta todo arrayList
         for (Smartphone smartphone: smartphones) {
